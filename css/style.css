@@ -40,7 +40,7 @@ body {
     background: #e554731a;
 }
 
-.banner {    
+.banner {
     max-width: 1922px;
     margin: 0px auto;
     padding: 50px 240px 0px 240px;
@@ -157,7 +157,7 @@ body {
     margin-bottom: 128px;
 }
 
-.hot-deal {    
+.hot-deal {
     max-width: 1922px;
     margin: 0px auto;
     display: flex;
@@ -237,6 +237,111 @@ body {
     image-resolution: 100%;
 }
 
+/* Upcoming Section */
+.upcoming {
+    max-width: 1922px;
+    margin: 0 auto;
+}
+
+.upcoming-title {
+    color: #272727;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 800;
+}
+
+.upcoming-description {
+    color: #27272799;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    margin: 24px 663px 48px 663px;
+}
+
+/* Online Ordering System */
+
+.image-container {
+    display: flex;
+    height: 500px;
+    margin: 100px 0 100px 20px;
+  }
+  
+  .circular-image {
+    width: 500px; 
+    height: 500px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin-right: 20px; 
+  }
+  
+  .circular-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+/*   
+.circular-image {
+    margin: 100px 186px 100px 0px;
+    align-items: left;
+    display: flex;
+    gap: 20px;
+}
+
+.circular-image {
+    width: 150px;
+    height: 150px; 
+    border-radius: 50%; 
+    overflow: hidden;
+    mirgin right: 20px;
+  }
+  
+  .circular-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+   */
+
+.online-ordering-system {
+    border-radius: 8px;
+    background-color: #e554730d;
+    margin-bottom: 128px;
+}
+
+.online-contant {
+    max-width: 1922px;
+    margin: 0px auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.online-title {
+    color: #272727;
+    font-size: 60px;
+    font-weight: 800;
+    text-align: right;
+   
+
+}
+
+#on-line {
+    color: #E55473;
+    font-size: 60px;
+    font-weight: 800;
+    margin: 80px 300px 24px 186px;
+}
+
+.online-description {
+    color: #272727;
+    text-align: right;
+    font-size: 25px;
+    font-weight: 600;
+    margin: 0px 150px 32px 186px;
+    text-align: center;
+}
+
 /* Get The Latest Deals Section */
 
 .get-the-latest-deal {
@@ -281,10 +386,10 @@ body {
     background-color: #111010;
     text-align: center;
     height: 449px;
-    margin-bottom: 500px;
     padding-top: 128px;
 }
-.footer-section{
+
+.footer-section {
     max-width: 1922px;
     margin: 0px auto;
 }
