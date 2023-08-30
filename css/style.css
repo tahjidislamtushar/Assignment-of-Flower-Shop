@@ -116,5 +116,35 @@ main {
     line-height: 35px;
     text-decoration-line: underline;
     margin: 210px;
+}
+
+/* Support Section */
+
+.support-section {
+    margin-top: 128px;
+    border-radius: 8px;
+    background: #2727270d;
+}
+
+#support {
     
+    display: flex;
+    gap: 450px;
+    margin: 0px 2px 0px 400px;
+    padding-top: 85px;
+
+
+
+}
+
+.s-content {
+    display: flex;
+    color: #272727cc;
+    text-align: center;
+    font-size: 24px;
+    font-weight: 600;
+    gap: 200px;
+    text-align: center;
+    padding-bottom: 87px;
+    margin: 0px 0px 0px 240px;
 }
